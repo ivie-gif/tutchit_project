@@ -1,13 +1,62 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+  margin: 0px;
+  padding: 0px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.nav-wrapper{
+  border-bottom: 1px solid #80808045;
+  /* width: 130% !important;
+  background-color: transparent !important; */
+
+}
+
+.Banner{
+  background-color: #3d155f;
+  height: 450px;
+/* background-image: url(https://media.istockphoto.com/photos/portrait-of-mature-male-doctor-wearing-white-coat-standing-in-picture-id1203995945?b=1&k=6&m=1203995945&s=170667a&w=0&h=01XaA-RSW6jekMgzCaEnrppsNYb1GqpxJo_NTKds-bQ=); */
+}
+.trans{
+  background-color: transparent !important;
+}
+.Bannertext{
+  width: 50%;
+  padding: 5em 2em;
+  color: white;
+}
+.who-we-are{
+  background-color: #f5f5ff;
+  padding: 40px;
+}
+.who-we-are h4{
+  margin-top: 0px;
+}
+.who-we-are-sec{
+display: flex;
+align-items: center;
+width: 80%;
+margin: 0px auto;
+}
+
+.signup, .login{
+  width: 50%;
+  margin: 50px auto;
+  padding: 20px;
+  box-shadow: 0 0 4px 2px rgb(38, 153, 251, .18);
+}
+.signup-title, .login-title{
+  display: block;
+  text-align: center;
+  font-size: 40px;
+}
+input{
+  width: 100%;
+  padding: 10px 12px;
+}
+.buttonsignup, .buttonlogin{
+  width: 100%;
+  margin-bottom: 10px;
+}
+.errormsg{
+  color: red;
+  text-align: center;
 }
